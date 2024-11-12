@@ -7,3 +7,4 @@ chromadb==0.5.18
 streamlit==1.39.0
 pandas==2.2.3
 python-dotenv==1.0.1
+!apt-get install sqlite3=3.35.0
