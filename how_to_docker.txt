@@ -1,0 +1,9 @@
+pip freeze > requirements.txt
+
+docker build -t cold_email_llama_groq .
+
+docker run -d -p 8000:8000 --name cold_email_llama_groq_container cold_email_llama_groq
+
+
+docker run -d -p 8501:8501 --name cold_email_llama_groq_container cold_email_llama_groq
+
